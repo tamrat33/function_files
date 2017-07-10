@@ -26,30 +26,30 @@
 
 function maxOfThree(num1,num2,num3){
 if ((num1 >= num2) && (num1 >=num3 )){
-  return num1;
+     return num1;
+
    } else if (num2 >= num3) {
-  return num2;
+    return num2;
 
    }else {
   return num3;
    }
-
-
 }
+
          console.log(maxOfThree (8,6,5));
 
 // 3.
 // Write a function that takes a character (i.e. a string of length 1) and returns true if it is a vowel, false otherwise.
 // Then, write and example of using the function.
-
-function isVowel(char){
+let num=vowl
+function isVowel(vowl){
    if("english is a vowel"){
     return true;
    }else {
     return false;
    }
 }
-       console.log(isVowel());
+       console.log(isVowel.length());
 
     // Your answer here
 
@@ -66,10 +66,17 @@ function isVowel(char){
 // 5.
 // Write a function named `avg` that takes 3 parameters and returns the average of those 3 numbers.
 // Then, write and example of using the function.
-    function avg(table1,table2) {
-     return table1/table2;
+    function avg(table1,table2,table3){
+if(table1 > table2){
+return table1/table2;
+   }if else(table2 >table3){
+return table2/table3
+   } else {
+   return table 3
+   }
+
 }
-     console.log((12,4));
+     console.log((12,6,3));
 
 
 // 6.
@@ -101,8 +108,8 @@ function isVowel(char){
 
 
 // 8.
-function greet(Name,name2) {
-  return " Hello, " + Name + "! ";
+function greet(name) {
+  return " Hello, " + name + "! ";
 
 }
    console.log(greet('tamrat'));

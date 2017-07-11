@@ -3,18 +3,21 @@
 // Then, write and example of using the function.
 
 
-  function max(a, b) {
-      if (a > b) {
-        return a;
-      } else  {
-        return b;
-      }
+function max(a, b) {
+  if (a > b) {
+    return a;
+  } else  {
+    return b;
   }
+}
 
-  console.log(max(4,5));
+console.log(max(4,5));
 
-
-
+// function annouce(name) {
+//   alert(name);
+// }
+// annouce();
+//
 
     // Your answer here
 
@@ -25,32 +28,37 @@
 // Then, write and example of using the function.
 
 function maxOfThree(num1,num2,num3){
-if ((num1 >= num2) && (num1 >=num3 )){
-     return num1;
+  if ((num1 >= num2) && (num1 >=num3 )){
+    return num1;
 
-   } else if (num2 >= num3) {
+  } else if (num2 >= num3) {
     return num2;
 
-   }else {
-  return num3;
-   }
+  }else {
+    return num3;
+  }
 }
 
-         console.log(maxOfThree (8,6,5));
+console.log(maxOfThree (8,6,5));
 
 // 3.
 // Write a function that takes a character (i.e. a string of length 1) and returns true if it is a vowel, false otherwise.
 // Then, write and example of using the function.
-let num=vowl
-function isVowel(vowl){
-   if("english is a vowel"){
-    return true;
-   }else {
-    return false;
-   }
-}
-       console.log(isVowel.length());
+// a, e, i, o, u
 
+function isVowel(vowel){
+  if("a"===vowel){
+    return true;
+  }else {
+    return false;
+  }
+}
+console.log(isVowel("a"));
+console.log(isVowel("e"));
+console.log(isVowel("i"));
+console.log(isVowel("o"));
+console.log(isVowel("u"));
+console.log(isVowel("x"));
     // Your answer here
 
 
@@ -58,47 +66,41 @@ function isVowel(vowl){
 // 4.
 // Write a function called `sum` that takes two parameters and returns the sum of those 2 numbers.
 // Then, write and example of using the function.
-    function sum( x, y){
-     return x + y;
+function sum( x, y){
+  return x + y;
 }
-    console.log(sum( 7, 5));
+console.log(sum( 7, 5));
 
 // 5.
 // Write a function named `avg` that takes 3 parameters and returns the average of those 3 numbers.
 // Then, write and example of using the function.
-    function avg(table1,table2,table3){
-if(table1 > table2){
-return table1/table2;
-   }if else(table2 >table3){
-return table2/table3
-   } else {
-   return table 3
-   }
+function  aveg(table1, table2, table3){
+  return (table1 + table2 + table3)/3;
 
 }
-     console.log((12,6,3));
+console.log(aveg(12,5,4));
 
 
 // 6.
 // Write a function called `getLength` that takes one parameter (a string) and returns the length
 // Then, write and example of using the function.
-   function getLength(str) {
-    return str.length;
+function getLength(str) {
+  return str.length;
 }
-     console.log(getLength("amrat"));
+console.log(getLength("amrat"));
 
 
 // 7.
 
-   function greaterThan(G,H) {
+function greaterThan(G,H) {
   if(G<H){
     return true;
-    }else {
+  }else {
     return false;
-    }
+  }
 }
 
-       console.log(greaterThan(5,8));
+console.log(greaterThan(5,8));
 
 // Write a function called `greaterThan` that takes two parameters
 // and returns `true` if the second parameter is greater than the first.
@@ -112,7 +114,7 @@ function greet(name) {
   return " Hello, " + name + "! ";
 
 }
-   console.log(greet('tamrat'));
+console.log(greet("tamrat"));
 // Write a function called `greet` that takes a
 // single parameter and returns a string that
 // is formated like "Hello, Name!" where *Name*
@@ -122,12 +124,12 @@ function greet(name) {
 
 
 // 9.
-   function madlib(str1, str2 ,str3, str4) {
+function madlib(str1, str2 ,str3, str4) {
   return "sometimes " + str1 + " " + str2 + " not " + str3  + " " + str4;
 
 
 }
-     console.log(madlib( 'JavaScript','is','very','handy'));
+console.log(madlib( "JavaScript","is","very","handy"));
 // Write a function called `madlib` that takes 4 or more parameters (words).
 // The function should insert the words into a pre-defined sentence.
 // Finally the function should return that sentence.
